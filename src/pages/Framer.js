@@ -16,7 +16,6 @@ function Framer() {
 
         <Header.Responsive />
         <Tabs />
-        <Button variant='Primary' label="Do košíku"/>
         <LoginForm />
 
         <div className='productsOffer'>
