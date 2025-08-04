@@ -1,0 +1,39 @@
+.productsOffer {
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    color: #181F5A;
+}
+
+.pageDesc {
+    text-align: center;
+}
+
+
+.cardsrow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.cardsrow > * {
+  flex: 1 1 calc(33.333% - 24px); /* 3 cards on desktop */
+  max-width: calc(33.333% - 24px);
+}
+
+@media (max-width: 1023px) {
+  .cardsrow > * {
+    flex: 1 1 calc(50% - 24px); /* 2 cards on tablet */
+    max-width: calc(50% - 24px);
+  }
+}
+
+@media (max-width: 767px) {
+  .cardsrow > * {
+    flex: 1 1 100%; /* 1 card on mobile */
+    max-width: 100%;
+  }
+}

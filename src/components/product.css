@@ -1,0 +1,76 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 5px 5px 15px
+}
+
+.product-image {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.product-info {
+  flex: 1 1 400px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: start;
+}
+
+.product-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #181F5A;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.product-price {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #181F5A;
+}
+
+.product-vat {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.product-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+
+/* Responzivita */
+@media (max-width: 768px) {
+  .product-container {
+    flex-direction: column;
+    text-align: start;
+    align-items: stretch;
+  }
+
+  .product-buttons {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .product-info,
+  .product-image {
+    max-width: 100%;
+  }
+}

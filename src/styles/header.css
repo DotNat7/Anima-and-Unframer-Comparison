@@ -1,0 +1,186 @@
+.header-variants {
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 3px #00000040;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.header-variants .technest-logosvg {
+  height: 35px;
+  position: relative;
+  transform: rotate(0.11deg);
+  width: 140px;
+}
+
+.header-variants .search-icon {
+  height: 24px;
+  position: relative;
+  transform: rotate(0.11deg);
+  width: 24px;
+}
+
+.header-variants .img {
+  position: relative;
+}
+
+.header-variants .search-bar {
+  align-items: center;
+  background-color: #f4f2f2;
+  border: 3px solid;
+  border-color: #181f5a;
+  border-radius: 24px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.header-variants .frame {
+  position: relative;
+}
+
+.header-variants .text-wrapper {
+  color: #b5b5b5;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header-variants .search-button {
+  align-items: center;
+  background-color: #181f5a;
+  border-radius: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px 14px;
+  position: relative;
+  width: 106px;
+}
+
+.header-variants .div {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header-variants .shoppingcart-icon {
+  object-fit: cover;
+  position: relative;
+}
+
+.header-variants.header-desktop {
+  height: 120px;
+  padding: 20px 40px;
+  width: 1440px;
+}
+
+.header-variants.header-tablet {
+  height: 100px;
+  padding: 20px 40px;
+  width: 834px;
+}
+
+.header-variants.header-phone {
+  padding: 14px;
+  transform: rotate(-0.11deg);
+  width: 320px;
+}
+
+.header-variants.header-desktop .img {
+  height: 60px;
+  width: 220px;
+}
+
+.header-variants.header-tablet .img {
+  height: 50px;
+  width: 170px;
+}
+
+.header-variants.header-phone .img {
+  height: 60px;
+  width: 220px;
+}
+
+.header-variants.header-desktop .search-bar {
+  gap: 474px;
+  height: 60px;
+  width: 720px;
+}
+
+.header-variants.header-tablet .search-bar {
+  gap: 122px;
+  height: 50px;
+  width: 360px;
+}
+
+.header-variants.header-phone .search-bar {
+  gap: 474px;
+  height: 60px;
+  width: 720px;
+}
+
+.header-variants.header-desktop .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.header-variants.header-tablet .frame {
+  color: #b5b5b5;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.header-variants.header-desktop .search-button {
+  height: 60px;
+}
+
+.header-variants.header-tablet .search-button {
+  height: 50px;
+}
+
+.header-variants.header-phone .search-button {
+  height: 60px;
+}
+
+.header-variants.header-tablet .div {
+  margin-bottom: -1.00px;
+  margin-top: -3.00px;
+}
+
+.header-variants.header-desktop .shoppingcart-icon {
+  height: 48px;
+  width: 48px;
+}
+
+.header-variants.header-tablet .shoppingcart-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.header-variants.header-phone .shoppingcart-icon {
+  height: 48px;
+  width: 48px;
+}
